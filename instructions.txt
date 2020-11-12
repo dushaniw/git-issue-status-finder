@@ -1,0 +1,15 @@
+1.Copy the issue column to a text file and save it. (git.csv)
+2.Remove , with new line and save it as input.csv
+    tr , '\n' < git.csv > input.csv
+3.Add the git personal access token to issueprocessor.go
+4.execute
+	go run issueprocessor.go
+5. Resulting csv created, result.csv
+
+
+If need to change the repo,
+Replace "product-apim" text to the expected repo name in issueprocessor.go file.
+
+
+
+    
